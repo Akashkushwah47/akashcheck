@@ -1,0 +1,17 @@
+#blogviewmain{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#blogviewmain>div{
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+    background-color: lightgoldenrodyellow
+}
+.blogview{width:250px;
+    height:100px;
+    background-color: lightgray;
+    margin:10px;
+    
+}

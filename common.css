@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-color:yellowgreen; */
+}
+/* logo------------------logo-----------------------------------------------------logo----------------- */
+#logo{
+    height:50px;
+    position:sticky;
+    background-color: tomato;
+    top:0px; 
+}
+/* navigation bar-------------------------------------------------------------------------navigation bar------------------------- */
+#header{
+    width:100%;
+    height:40px;
+    background-color:black;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    position:sticky;
+    top:50px;
+}
+#header>a {
+    font-size:15px;
+    padding:10px 20px;
+    text-decoration: none;
+    color:gray;
+    background-color:black;
+}
+
+#button{
+    width:40px;
+    height:35px;
+    background-color:white;
+    border:none;
+    margin:0px 5px 0px 0px;
+}
+#button span {
+    background-color:"gray";
+}
+#btndiv{
+    display:none;
+}
+.navdiv{
+    display:block;
+    text-decoration: none;
+    color:gray;
+    padding:2px 15px;
+}
+#navdiv{
+    height:50px;
+    background-color:black;
+    width:100%;
+    display: none;
+    margin-top:2px;
+    position:sticky;
+    top:92px;
+}
+
+@media only screen and (max-width:600px)
+{
+    .disappeara{
+        display:none;
+    }
+    #btndiv{
+        display:block;
+    }
+    #header a {
+        padding:10px 10px;
+    }
+}
+
+#header a:hover{
+    color:white;
+    background-color:red;
+}
+.navdiv:hover{
+    color:white;
+    background-color: red;
+}
+/* subject div ------------------subject div ------- ------------------ */
+#subjectdiv{
+    height:30px;
+    background-color:rgb(253, 234, 227);
+
+
+    display:flex;
+}
+.subjectdiv{
+    width:50px;
+    height:20px;
+    background-color:rgb(253, 234, 227);
+    margin:5px;
+    
+    
+}
+#subjectdiv>a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+.subjectdiv:hover{
+    /* background-color:lightgray; */
+    color:red;
+}
+/* yaha tak same code tha for all webpages ke liye */

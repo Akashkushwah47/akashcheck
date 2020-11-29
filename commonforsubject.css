@@ -1,0 +1,33 @@
+
+#blogviewmain{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#blogviewmain>div{
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+    background-color: lightgoldenrodyellow
+}
+.blogview{
+    width:350px;
+    height:100px;
+    background-color: lightgray;
+    margin:10px;
+    
+}
+.blogview>a>div{
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    /* background-color: blue; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.blogview>a{
+    text-decoration: none;
+    color:black;
+}
