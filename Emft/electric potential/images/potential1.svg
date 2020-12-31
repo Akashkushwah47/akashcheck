@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 446.7 222.7" style="enable-background:new 0 0 446.7 222.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'CambriaMath';}
+	.st2{font-size:18px;}
+	.st3{fill:none;stroke:#231F20;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#D32E27;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#D32E27;stroke-miterlimit:10;stroke-dasharray:1.9929,0.9964;}
+</style>
+<g>
+	<g>
+		<line class="st0" x1="14.9" y1="82.3" x2="313.7" y2="82.3"/>
+		<g>
+			<path d="M319.7,82.3c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C313.4,79.5,316.9,81.3,319.7,82.3z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st0" x1="14.9" y1="111.8" x2="313.7" y2="111.8"/>
+		<g>
+			<path d="M319.7,111.8c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C313.4,108.9,316.9,110.7,319.7,111.8z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st0" x1="14.9" y1="141.2" x2="313.7" y2="141.2"/>
+		<g>
+			<path d="M319.7,141.2c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C313.4,138.4,316.9,140.2,319.7,141.2z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st0" x1="14.9" y1="170.7" x2="313.7" y2="170.7"/>
+		<g>
+			<path d="M319.7,170.7c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C313.4,167.8,316.9,169.6,319.7,170.7z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st0" x1="14.9" y1="200.1" x2="313.7" y2="200.1"/>
+		<g>
+			<path d="M319.7,200.1c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8l-1.7-4.8C313.4,197.3,316.9,199.1,319.7,200.1z"/>
+		</g>
+	</g>
+</g>
+<circle cx="122" cy="125.6" r="3.6"/>
+<circle cx="418" cy="44.3" r="3.6"/>
+<text transform="matrix(1 0 0 1 385.7023 27.3365)" class="st1 st2">infinity</text>
+<text transform="matrix(1 0 0 1 97.8627 129.2374)" class="st1 st2">A</text>
+<text transform="matrix(1 0 0 1 414.4176 65.2381)" class="st1 st2">q</text>
+<text transform="matrix(0.583 0 0 0.583 424.2614 71.2323)" class="st1 st2">O</text>
+<g>
+	<text transform="matrix(1 0 0 1 324.2363 147.228)" class="st1 st2">E</text>
+	<g>
+		<line class="st3" x1="333.8" y1="131.9" x2="325.4" y2="131.9"/>
+		<path class="st3" d="M331.7,134.5l2.1-2.7c0,0,0,0,0,0l-2.2-2.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st4" d="M418,44.3c0,0-0.3,0-1-0.1"/>
+		<path class="st5" d="M416,44.1c-21-1.9-204.2-15.4-293.1,80.4"/>
+		<path class="st4" d="M122.6,124.9c-0.2,0.2-0.5,0.5-0.7,0.7"/>
+	</g>
+</g>
+</svg>

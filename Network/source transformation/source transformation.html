@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common.css">   <!--not same as home page-->
+
+    <link rel="stylesheet" href="../../commonpageforeveryblog.css">
+    <link rel="stylesheet" href="b1.css">
+
+    <style>
+ 
+  
+    </style>
+</head>
+<body>
+    <!-- logo--------------------logo-----------------logo-------------------------------logo-------------------logo -->
+    <div id=logo>
+        <div><img src="../../LOGOIMAGE.svg"  height="100%"></div>
+    </div>
+    <!-- navigation bar --------------------------navigation bar -----------------------------navigation bar------------ -->
+    <div id=header>
+        <div id=btndiv><button onclick="responsivenavbar()" id=button ><span>&#9776;</span></button></div>
+        <a href="../../index.html" id="home">Home</a>
+        <a href="#" id="about us">About us</a>
+        <a href="#" id="contactus">Contact us</a>
+        <a href="#" id="services" class=disappeara>Services</a>
+        <a href="#" id="more" class=disappeara>More</a>
+    </div>
+    
+    <div id=navdiv>
+        <a href="#" class=navdiv>Services</a>
+        <hr>
+        <a href="#" class=navdiv>More</a>
+    </div>
+   <script>
+        function responsivenavbar(){
+            var x= document.getElementById("navdiv");
+
+            if (x.style.display=="block")
+            {
+                x.style.display="none";
+            }
+            else
+            {
+                x.style.display="block";
+            }
+        }
+    </script>
+  <div id=subjectdiv>
+      <a href=analog.html ><div class="subjectdiv">Analog</div></a>
+      <a href=analog.html ><div class="subjectdiv">Emft</div></a>
+      <div class="subjectdiv" ></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+  </div>
+  <!-- yaha tak sabke liye common code tha sabhi webpages ke liye--------------------- -->
+  <div id=mainpage>
+    <div id=div1>
+  <h3>Source transformation</h3>
+  <br>
+  
+
+  <h5>What</h5>
+ 
+  <p>
+      Source transformation is a method to convert Voltage source to equivalent current source  and Current Source to 
+      equivalent voltage source.
+  </p>
+  
+<br>
+  <h5>Why</h5>
+  <p>Source transformation  method are used for Circuit simplification. </p>
+<br>
+  <h5>How</h5>
+ <div class=imagesdiv><div style="width:700px;"> <img src="images/source transformation.svg"  ></div></div>
+
+  <P>We can convert voltage source to current source and vise versa without changing the characteristics of network
+      that means voltage across a and b and current through network remains same after the transformation.
+  </P>
+  <br>
+  <h5><u>Voltage to Current transformation:</u></h5>
+  <div class=imagesdiv><div style="width:700px;"> <img src="images/voltage to current transformation.svg"  ></div></div>
+
+ <P>To convert voltage source to current source. We connect equivalent resistance R with parallel to current source
+     and the value of current source: <strong style="background-color: yellow;">I=V/R;</strong>
+ </P>
+
+ <br> <h5><u>Current to voltage transformation:</u></h5>
+ <div class=imagesdiv><div style="width:700px;"> <img src="images/source transformation.svg"  ></div></div>
+
+ <P>To convert current source to voltage source. We connect equivalent resistance R with series to voltage source
+    and the value of voltage source: <strong style="background-color: yellow;">V=I/R</strong>
+</P>
+
+  <br><br>
+  </div>
+  <!-- right bar             right bar ------------------------tight bar------------right bar------------ -->
+  <div id=rightbar>
+
+    <div><h3>Related items</h3></div>
+
+    <ul>
+        <li>
+    <a href="b1.html" id="anchor1" class="anchor">Transformation</a><br>
+        </li>
+        <li>
+    <a href="#####" id="anchor2" class="anchor">Conversion</a><br>
+        </li>
+        <li>
+    <a href="####" id="anchor3" class="anchor"> I will add after some time</a>
+        </li>
+    </ul>
+    </div>
+</div>
+
+</body>
+</html>

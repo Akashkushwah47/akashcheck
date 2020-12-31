@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common.css">   <!--not same as home page-->
+
+    <link rel="stylesheet" href="../../commonpageforeveryblog.css">
+
+    <style>
+ 
+  
+    </style>
+</head>
+<body>
+    <!-- logo--------------------logo-----------------logo-------------------------------logo-------------------logo -->
+    <div id=logo>
+        <div><img src="../../LOGOIMAGE.svg"  height="100%"></div>
+    </div>
+    <!-- navigation bar --------------------------navigation bar -----------------------------navigation bar------------ -->
+    <div id=header>
+        <div id=btndiv><button onclick="responsivenavbar()" id=button ><span>&#9776;</span></button></div>
+        <a href="../../index.html" id="home">Home</a>
+        <a href="#" id="about us">About us</a>
+        <a href="#" id="contactus">Contact us</a>
+        <a href="#" id="services" class=disappeara>Services</a>
+        <a href="#" id="more" class=disappeara>More</a>
+    </div>
+    
+    <div id=navdiv>
+        <a href="#" class=navdiv>Services</a>
+        <hr>
+        <a href="#" class=navdiv>More</a>
+    </div>
+   <script>
+        function responsivenavbar(){
+            var x= document.getElementById("navdiv");
+
+            if (x.style.display=="block")
+            {
+                x.style.display="none";
+            }
+            else
+            {
+                x.style.display="block";
+            }
+        }
+    </script>
+  <div id=subjectdiv>
+      <a href=analog.html ><div class="subjectdiv">Analog</div></a>
+      <a href=analog.html ><div class="subjectdiv">Emft</div></a>
+      <div class="subjectdiv" ></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+  </div>
+  <!-- yaha tak sabke liye common code tha sabhi webpages ke liye--------------------- -->
+  
+  <div id=mainpage>
+    <div id=div1>
+        <h4>Electric Field intesity</h4>
+  <P>The electric field intesity at any location is the force that would be  experienced by unit test charge placed in electirc field at that location  </P>
+  <img src="images/now3.PNG"> 
+  
+    <strong><p> If q=+ then the direction of force will be the direction of electric field.</p> 
+    <p> If q=- then the direction of force will be the opposite direction of electric field.</p></strong> 
+<img src="images/now1.svg" height="400"><br>
+</div>
+  <!-- right bar             right bar ------------------------tight bar------------right bar------------ -->
+  <div id=rightbar>
+
+    <div><h3>Related items</h3></div>
+
+    <ul>
+        <li>
+    <a href="b1.html" id="anchor1" class="anchor">Transformation</a><br>
+        </li>
+        <li>
+    <a href="#####" id="anchor2" class="anchor">Conversion</a><br>
+        </li>
+        <li>
+    <a href="####" id="anchor3" class="anchor"> I will add after some time</a>
+        </li>
+    </ul>
+    </div>
+</div>
+    
+</body>
+</html>

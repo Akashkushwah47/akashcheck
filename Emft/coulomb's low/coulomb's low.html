@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common.css"> <!-- not same as home page-->
+    <link rel="stylesheet" href="coulomb's low.css">
+
+    <link rel="stylesheet" href="../../commonpageforeveryblog.css">
+
+    <style>
+ 
+  
+    </style>
+</head>
+<body>
+    <!-- logo--------------------logo-----------------logo-------------------------------logo-------------------logo -->
+    <div id=logo>
+        <div><img src="../../LOGOIMAGE.svg"  height="100%"></div>
+    </div>
+    <!-- navigation bar --------------------------navigation bar -----------------------------navigation bar------------ -->
+    <div id=header>
+        <div id=btndiv><button onclick="responsivenavbar()" id=button ><span>&#9776;</span></button></div>
+        <a href="../../index.html" id="home">Home</a>
+        <a href="#" id="about us">About us</a>
+        <a href="#" id="contactus">Contact us</a>
+        <a href="#" id="services" class=disappeara>Services</a>
+        <a href="#" id="more" class=disappeara>More</a>
+    </div>
+    
+    <div id=navdiv>
+        <a href="#" class=navdiv>Services</a>
+        <hr>
+        <a href="#" class=navdiv>More</a>
+    </div>
+   <script>
+        function responsivenavbar(){
+            var x= document.getElementById("navdiv");
+
+            if (x.style.display=="block")
+            {
+                x.style.display="none";
+            }
+            else
+            {
+                x.style.display="block";
+            }
+        }
+    </script>
+  <div id=subjectdiv>
+      <a href=analog.html ><div class="subjectdiv">Analog</div></a>
+      <a href=analog.html ><div class="subjectdiv">Emft</div></a>
+      <div class="subjectdiv" ></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+  </div>
+  <!-- yaha tak sabke liye common code tha sabhi webpages ke liye--------------------- -->
+  
+  <div id=mainpage>
+    <div id=div1>
+        <p style="background-color: blueviolet; border:2px; padding:2px;">Coulomb's low</p>
+  <P>  &nbsp&nbsp&nbsp&nbsp&nbspIt states that the force of attraction and repulsion between two point charge is directly proportional to the product 
+      of the magnitudes of charges and inversaly proportional to the square of the distance between them.
+  </P>
+  <hr>
+  <img src="images/coloumb.svg" width="100%" height="100" ><br>
+  
+  <img src="images/Coulomb's1.PNG" width="" ><br>
+
+  <img src="images/Coulomb's2.5.PNG" width=""><br>
+  <img src="images/Coulomb's2.PNG" >
+  <img src="images/Coulomb's3.PNG" ><br>
+<hr><hr>
+
+  In vector form:-
+  <img src="images/coloumbforces.svg"width="100%" height="350" >
+  <img src="images/coloumb'slowvector.PNG" >
+  <img src="images/coloumbvector.svg"width="100%" height="350" >
+
+<hr><hr>
+  Numerical's
+  </div>
+  <!-- right bar             right bar ------------------------tight bar------------right bar------------ -->
+  <div id=rightbar>
+
+    <div><h3>Related items</h3></div>
+
+    <ul>
+        <li>
+    <a href="coulomb's low.html" id="anchor1" class="anchor" style="color:black;">Coulomb's low</a><br>
+        </li>
+        <li>
+    <a href="../electric field intensity/electric field intensity.html" id="anchor2" class="anchor">Electric field inensity</a><br>
+        </li>
+        <li>
+    <a href="../Gauss's low/gauss's low.html" id="anchor3" class="anchor">Gauss's low</a>
+        </li>
+        <li>
+            <a href="../Electric flux/Electric flux.html" id="anchor3" class="anchor">Electric Flux</a>
+        </li>
+    </ul>
+    </div>
+</div>
+    
+</body>
+</html>

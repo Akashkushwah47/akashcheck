@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(224, 217, 217);
+}
+#mainpage{
+   background-color:rgba(208, 240, 235, 0.1);
+   /* background-color: pink; */
+   display: flex;
+   
+}
+#div1{
+    margin:2px 10px 5px 10px;
+    background-color: white;
+    padding:15px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 10px 10px 0px;
+    width:80%;
+}
+@media only screen and (max-width:600px)
+{   #div1{
+    font-size:16px;
+}
+   
+}
+ /* for images inside #div1  give id images to div for responsive view */
+ .imagesdiv{ display:flex;
+    justify-content: center;
+    
+     
+ }
+/* right bar ---------------rightbar div--------------------- */
+#rightbar{
+    background-color: white;
+    width:20%;
+    height:700px;
+    margin:2px 10px 0px 0px;
+    border-radius: 0px 10px 10px 0px;
+    padding:2px 10px;
+}
+
+
+ul>li{
+    
+    list-style-type: none;
+    padding:2px;
+    padding-left: 15px;
+    
+}
+.anchor{
+    text-decoration: none;
+    
+    font-size: 18px;
+
+}
+
+.anchor:hover{
+    color:black;
+    
+}
+
+@media only screen and (max-width:600px)
+{
+ #mainpage{
+     flex-wrap: wrap;
+     justify-content: center;
+ }  
+ #div1{
+     width:100%;
+     border-radius:0px;
+    margin:2px 5px 2.5px 5px;
+
+
+ }
+#rightbar{
+    width:100%;
+    margin:2.5px 5px 0px 5px;
+    border-radius:0px;
+
+}
+}

@@ -5,16 +5,24 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    /* background-color:yellowgreen; */
-}
+ /* body{
+    background-color:yellowgreen;
+}  */
 /* logo------------------logo-----------------------------------------------------logo----------------- */
 #logo{
     height:50px;
     position:sticky;
-    background-color: tomato;
+    background-color: red;
     top:0px; 
+    display:flex;
 }
+#logo>div{ 
+    width:100%;
+    height:100%;
+   /* background-color: blue; */
+
+}
+
 /* navigation bar-------------------------------------------------------------------------navigation bar------------------------- */
 #header{
     width:100%;

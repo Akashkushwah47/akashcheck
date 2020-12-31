@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common.css">   <!--not same as home page-->
+
+    <link rel="stylesheet" href="../../commonpageforeveryblog.css">
+
+    <style>
+ 
+  
+    </style>
+</head>
+<body>
+    <!-- logo--------------------logo-----------------logo-------------------------------logo-------------------logo -->
+    <div id=logo>
+        <div><img src="../../LOGOIMAGE.svg"  height="100%"></div>
+    </div>
+    <!-- navigation bar --------------------------navigation bar -----------------------------navigation bar------------ -->
+    <div id=header>
+        <div id=btndiv><button onclick="responsivenavbar()" id=button ><span>&#9776;</span></button></div>
+        <a href="../../index.html" id="home">Home</a>
+        <a href="#" id="about us">About us</a>
+        <a href="#" id="contactus">Contact us</a>
+        <a href="#" id="services" class=disappeara>Services</a>
+        <a href="#" id="more" class=disappeara>More</a>
+    </div>
+    
+    <div id=navdiv>
+        <a href="#" class=navdiv>Services</a>
+        <hr>
+        <a href="#" class=navdiv>More</a>
+    </div>
+   <script>
+        function responsivenavbar(){
+            var x= document.getElementById("navdiv");
+
+            if (x.style.display=="block")
+            {
+                x.style.display="none";
+            }
+            else
+            {
+                x.style.display="block";
+            }
+        }
+    </script>
+  <div id=subjectdiv>
+      <a href=analog.html ><div class="subjectdiv">Analog</div></a>
+      <a href=analog.html ><div class="subjectdiv">Emft</div></a>
+      <div class="subjectdiv" ></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+      <div class="subjectdiv"></div>
+  </div>
+  <!-- yaha tak sabke liye common code tha sabhi webpages ke liye--------------------- -->
+  
+  <div id=mainpage>
+    <div id=div1>
+        <h4><u>Electric Potential</u></h4><br>
+  <P>&nbsp&nbsp&nbsp&nbsp Electric potential is an electric field is defined as the amount of work to be done to bring a unit positive test charge form infinity to that point. </P>
+  <img src="images/potential1.svg"  width="100%" height="250">
+    <P> Suppose we have a point A in an electric field and q<sub>0</sub> is a positive test charge then the electric potential at a point A will be </P>
+  <img src="images/potential.PNG">
+
+    <p>If work is done againt electric field( againt repultion or By external force) to bring test charge from infinity to that point then potential will be positive.</p>
+  <p>If work is electric field (attraction or by internal force) to bring test charge from infinity to that point then potential will be negative.</p><hr>
+    <P>
+        The earth potential is taken as Zero<br>
+        It is taken as the reference potential to measure the potential of any body.<br>
+        The electric potential above the earth potential is taken as positivde potential and 
+        electric potential below the earth potential is taken as negative potential. 
+    </P><br><br>
+    <P><b><u>Relation between electric potential and electric field intensity</u></b></P><br><br><br><br><br><br><br><br><br><br>
+    <p>In this diagram, a uniform electric field is present and we have a point A and point B in this electic field at a small distance dx
+        Potential at a point A will be higher as compare to point B (because we have to do work more to bring a unit test charge from infinity to point A as compare to B.)<br>
+        suppose potential at a point B is V then the potential at a point A will be V+dv<br>
+        we put a unit test charge q<sub>0</sub>at a point B.
+        Charge q<sub>0</sub> will experience a force(q<sub>0</sub>E) in the direction of electric field (because q<sub>0</sub> is a positive charge ).
+        <br>Now, work done againt the electric field to bring a charge q<sub>0</sub> from point B to A.
+        
+
+    </p>
+    <img src="images/relation electric field and potential.PNG">
+    </div>
+  <!-- right bar             right bar ------------------------tight bar------------right bar------------ -->
+  <div id=rightbar>
+
+    <div><h3>Related items</h3></div>
+
+    <ul>
+        <li>
+    <a href="Network/source transformation/source transformation.html" id="anchor1" class="anchor">Transformation</a><br>
+        </li>
+        <li>
+    <a href="../Electric field intensity/electric field intensity.html" id="anchor2" class="anchor">Electric field intensity</a><br>
+        </li>
+        <li>
+    <a href="####" id="anchor3" class="anchor"> I will add after some time</a>
+        </li>
+    </ul>
+    </div>
+</div>
+    
+</body>
+</html>
